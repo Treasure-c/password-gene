@@ -1,0 +1,68 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body {
+  background-color: #008b8b;
+  color: #fff;
+}
+.wrapper {
+  /* style for general container */
+  width: 50%;
+  margin: 0px auto;
+  max-width: 500px;
+}
+h1 {
+  /*generate a random password*/
+  margin: 40px 0px 10px 0px;
+  text-align: center;
+}
+.random {
+  /* the span*/
+  color: #d2901f;
+}
+
+.display {
+  /*div holding input and copy together*/
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  padding: 8px;
+  background-color: #fff;
+  margin: 30px auto;
+  border-radius: 15px;
+}
+input {
+  /* input box itself*/
+  padding: 10px;
+  width: 90%;
+  border: none;
+  outline: none;
+}
+img {
+  /* style for all the images*/
+  width: 25px;
+}
+.errTxt{
+  color: red;
+  text-align: center;
+  padding: 5px;
+  
+}
+.cta {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  background-color: #fff;
+  border: none;
+  border-radius: 15px;
+  margin: 0px auto;
+}
+.cta:hover {
+  font-weight: 600;
+}
+
